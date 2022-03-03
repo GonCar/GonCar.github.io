@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>One Coolumn Layout</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+</head>
+<body lass="d-flex flex-column min-vh-100">
+    <header style="border-style: solid; text-align: center;">
+        <h1>ABB</h1>
+    </header>
+    <nav style="border-style: solid; text-align:justify; margin-bottom: 10px; display: flex;">
+        <h3>Home</h3>
+        <h3 style="margin-left: 20%">3DProp</h3>
+        <h3 style="margin-left: 20%;">Q&A</h3>
+        <h3 style="margin-left: 20%;">Catalogue</h3>
+        <div style="position: absolute; right: 0px;padding: 10px;">
+            <select name="navOpt" id="navOpt">
+                <option value="opt0" selected="selected">Robots</option>
+                <option value="opt1">Motors and Drives</option>
+                <option value="opt2">Generators</option>
+                <option value="opt3">Power Grids</option>
+                <option value="opt4">Other products</option>
+            </select>
+        </div>
+    </nav>
+    <div style="border-style: solid; position: relative; height: 80vh;">
+        <div style="margin: 0; position: absolute; top: 50%;left: 50%;-ms-transform: translate(-50%, -50%); transform: translate(-50%, -50%);">
+            <h2>Img dummy</h2>
+        </div>
+    </div>
+    <footer class="fixed-bottom" style="border-style: solid; text-align: center;">
+        <p>This is the footer of the site</p>
+    </footer>
+</body>
+</html>
