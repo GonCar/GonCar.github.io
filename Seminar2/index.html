@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="validate.js"></script>
+    <title>Quiz</title>
+</head>
+<body>
+    <form action="" name="Quiz" onsubmit="return validate()">
+        <input type="text" name="name" placeholder="Name">
+        <input type="text" name="surname" placeholder="Surname">
+        <input type="text" name="email" placeholder="Email">
+        <input type="radio" name="favoriteColor" id="red" value="red">
+        <label for="red">Red is my favorite color</label>
+        <input type="radio" name="favoriteColor" id="green" value="green">
+        <label for="green">Green is my favorite color</label>
+        <input type="radio" name="favoriteColor" id="blue" value="blue">
+        <label for="blue">Blue is my favorite color</label>
+        <input type="checkbox" name="foodOption_1" id="" value="Pizza">
+        <label for="foodOption_1">I like Pizza</label>
+        <input type="checkbox" name="foodOption_2" id="" value="Pizza">
+        <label for="foodOption_2">I like Burgers</label>
+        <input type="checkbox" name="foodOption_3" id="" value="Pizza">
+        <label for="foodOption_3">I like Kebab</label>
+        <textarea name="yourQuestion" id="yourQuestion" cols="30" rows="5"></textarea>
+        <label for="yourQuestion">Explain why you like like them</label>
+        <input type="submit" value="Submit">
+    </form>
+    <h3 id="Success"style="color: red;"></h3>
+    <p id="demo"></p>
+</body>
+</html>
